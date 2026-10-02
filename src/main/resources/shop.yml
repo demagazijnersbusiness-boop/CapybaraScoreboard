@@ -1,0 +1,129 @@
+# SELL prices (per item) and SHOP categories (price per item).
+# Prices accept K, M, B, T, QA, QI, SX, SP, OC, NO, DC  (example: 2.5K, 1M, 3QA)
+# Material names: https://jd.papermc.io/paper/org/bukkit/Material.html
+# Max 45 items per category. Max 14 categories. After editing: /csb reload
+
+sell:
+  COAL: 5
+  COPPER_INGOT: 8
+  IRON_INGOT: 25
+  GOLD_INGOT: 40
+  LAPIS_LAZULI: 6
+  REDSTONE: 4
+  QUARTZ: 8
+  EMERALD: 120
+  DIAMOND: 250
+  ANCIENT_DEBRIS: 1.2K
+  NETHERITE_INGOT: 5K
+  NETHER_STAR: 50K
+  RAW_COPPER: 6
+  RAW_IRON: 20
+  RAW_GOLD: 35
+  COBBLESTONE: 1
+  STONE: 1
+  COBBLED_DEEPSLATE: 1
+  OAK_LOG: 4
+  SPRUCE_LOG: 4
+  BIRCH_LOG: 4
+  WHEAT: 3
+  CARROT: 3
+  POTATO: 3
+  BEETROOT: 3
+  PUMPKIN: 6
+  MELON_SLICE: 1
+  SUGAR_CANE: 2
+  CACTUS: 3
+  NETHER_WART: 5
+  BONE: 4
+  STRING: 3
+  GUNPOWDER: 8
+  ROTTEN_FLESH: 1
+  SPIDER_EYE: 4
+  ENDER_PEARL: 40
+  BLAZE_ROD: 30
+  GHAST_TEAR: 120
+  SLIME_BALL: 10
+  LEATHER: 6
+  FEATHER: 2
+  PHANTOM_MEMBRANE: 20
+  SHULKER_SHELL: 500
+  COOKED_BEEF: 6
+  COOKED_PORKCHOP: 6
+  COOKED_CHICKEN: 5
+  COD: 3
+  SALMON: 4
+
+categories:
+  blocks:
+    name: "Blocks"
+    icon: GRASS_BLOCK
+    items:
+      STONE: 5
+      COBBLESTONE: 4
+      DIRT: 2
+      SAND: 4
+      GLASS: 10
+      OAK_LOG: 20
+      SPRUCE_LOG: 20
+      BIRCH_LOG: 20
+      OAK_PLANKS: 6
+      BRICKS: 30
+      OBSIDIAN: 200
+      TORCH: 5
+  tools:
+    name: "Tools & Gear"
+    icon: DIAMOND_PICKAXE
+    items:
+      IRON_SWORD: 400
+      IRON_PICKAXE: 600
+      IRON_AXE: 600
+      IRON_SHOVEL: 300
+      DIAMOND_SWORD: 2.5K
+      DIAMOND_PICKAXE: 3.5K
+      DIAMOND_AXE: 3.5K
+      DIAMOND_HELMET: 6K
+      DIAMOND_CHESTPLATE: 10K
+      DIAMOND_LEGGINGS: 8K
+      DIAMOND_BOOTS: 5K
+      BOW: 300
+      ARROW: 10
+      SHIELD: 400
+      ELYTRA: 250K
+  food:
+    name: "Food"
+    icon: COOKED_BEEF
+    items:
+      BREAD: 20
+      APPLE: 15
+      COOKED_BEEF: 30
+      COOKED_PORKCHOP: 30
+      COOKED_CHICKEN: 25
+      GOLDEN_CARROT: 60
+      GOLDEN_APPLE: 2K
+  resources:
+    name: "Resources"
+    icon: DIAMOND
+    items:
+      COAL: 30
+      IRON_INGOT: 150
+      GOLD_INGOT: 250
+      REDSTONE: 30
+      LAPIS_LAZULI: 40
+      EMERALD: 800
+      DIAMOND: 1.5K
+      NETHERITE_INGOT: 50K
+  misc:
+    name: "Misc"
+    icon: ENDER_CHEST
+    items:
+      ENDER_PEARL: 250
+      EXPERIENCE_BOTTLE: 150
+      FIREWORK_ROCKET: 60
+      NAME_TAG: 1K
+      SADDLE: 2K
+      ANVIL: 1K
+      ENCHANTING_TABLE: 3K
+      ENDER_CHEST: 2K
+      SHULKER_BOX: 20K
+      TOTEM_OF_UNDYING: 25K
+      BEACON: 1M
