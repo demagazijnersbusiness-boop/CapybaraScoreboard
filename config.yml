@@ -1,0 +1,22 @@
+# CAPYBARA SMP configuration (MiniMessage: https://docs.advntr.dev/minimessage/format.html)
+# <value> is replaced with the stat value.
+
+# Starting money for new players. You can use K, M, B, T, QA, QI, SX, SP, OC, NO, DC.
+start-money: "1K"
+start-lives: 3
+max-lives: 20
+
+lives:
+  lose-on-death: true
+  # NONE or SPECTATOR
+  on-zero-lives: NONE
+
+scoreboard:
+  title: "<bold><gradient:#1e90ff:#00e5ff>CAPYBARA SMP</gradient></bold>"
+  always-show-hours: true
+  lines:
+    kills: "<red>⚔ <white>Kills <red><value>"
+    deaths: "<gold>☠ <white>Deaths <gold><value>"
+    money: "<green>$ <white>Money <green><value>"
+    playtime: "<yellow>⏱ <white>Playtime <yellow><value>"
+    lives: "<red>❤ <white>Lives <red><value>"
