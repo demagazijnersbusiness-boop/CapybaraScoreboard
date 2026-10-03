@@ -1,0 +1,66 @@
+name: CapybaraModPanel
+version: 1.0.0
+main: net.capybarasmp.modpanel.ModPanelPlugin
+api-version: '26.3'
+description: Moderator panel and staff commands for CAPYBARA SMP
+author: CapybaraSMP
+softdepend: [CapybaraScoreboard]
+
+commands:
+  mod:
+    description: Manage moderators (owner only)
+    usage: /mod <add|remove|list> [player]
+  modpanel:
+    description: Open the moderator panel
+    usage: /modpanel
+    aliases: [mp]
+  fly:
+    description: Toggle flight
+    usage: /fly [player]
+  god:
+    description: Toggle god mode
+    usage: /god [player]
+  vanish:
+    description: Toggle vanish
+    usage: /vanish [player]
+    aliases: [v]
+  spectate:
+    description: Spectate a player (/spectate off to return)
+    usage: /spectate <player|off>
+    aliases: [spec]
+  setarmor:
+    description: Give a full armor set
+    usage: /setarmor [player] <leather|chainmail|iron|gold|diamond|netherite> [max]
+  skellys:
+    description: Give Skelly Spawners
+    usage: /skellys <player> [amount]
+  heal:
+    description: Heal a player
+    usage: /heal [player]
+  feed:
+    description: Feed a player
+    usage: /feed [player]
+  gm:
+    description: Change gamemode
+    usage: /gm <survival|creative|adventure|spectator> [player]
+  goto:
+    description: Teleport to a player
+    usage: /goto <player>
+  bring:
+    description: Teleport a player to you
+    usage: /bring <player>
+  freeze:
+    description: Freeze / unfreeze a player
+    usage: /freeze <player>
+  mute:
+    description: Mute / unmute a player
+    usage: /mute <player>
+  invsee:
+    description: Open a player's inventory
+    usage: /invsee <player>
+  speed:
+    description: Set walk/fly speed (1-10, 2 = normal, reset)
+    usage: /speed <1-10|reset> [player]
+  sc:
+    description: Staff chat
+    usage: /sc <message>

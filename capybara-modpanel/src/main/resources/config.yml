@@ -1,0 +1,15 @@
+# CAPYBARA SMP - Mod Panel
+
+# These players are automatically OWNER the first time they join.
+# Owners can make other players moderators with /mod add <player>.
+owners:
+  - ItssCapy
+
+# SECURITY: names are only trusted when the server runs in online-mode (premium accounts).
+# On an offline-mode (cracked) server anyone could join with this name, so auto-owner is disabled.
+# In that case give owner from the console with:  mod owner ItssCapy
+# Set this to true ONLY if you understand the risk.
+trust-names-offline: false
+
+# Message prefix (MiniMessage)
+prefix: "<dark_red><bold>[Mod]</bold> <gray>"
